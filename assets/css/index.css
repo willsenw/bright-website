@@ -1,0 +1,228 @@
+.Rectangle {
+  width: 1440px;
+  height: 1048px;
+  padding: 20px 0 0 0;
+  transform: rotate(-180deg);
+  border-radius: 100px;
+  background-image: radial-gradient(circle at 69% -37%, #248a9d, #4b4898 84%);
+}
+.Mask {
+  width: 1440px;
+  height: 1024px;
+  padding: 33px 48px 0 40px;
+  object-fit: contain;
+  transform: rotate(-180deg);
+  background-color: #222222;
+}
+
+.MenuBar{
+  display: flex;
+  flex-direction: row;
+}
+
+.Rows{
+  display: flex;
+  flex-direction: row;
+}
+
+.Columns{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bright {
+  width: 51px;
+  height: 23px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: justify;
+  color: #ffc300;
+}
+
+.about-us {
+  width: 80px;
+  height: 25px;
+  margin: 7px 64px 8px 904px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+.werk {
+  width: 44px;
+  height: 25px;
+  margin: 7px 0px 8px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+.contact-us {
+  width: 97px;
+  height: 25px;
+  margin: 7px 0 8px 64px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.man-on-chair {
+  position: relative;
+  width: 390px;
+  height: 536px;
+  margin-top: 166px;
+  padding: 36px 167.7px 493px 185.8px;
+  object-fit: contain;
+  background-image: url("./../img/man-on-chair.png");
+}
+
+.your-digital-agency{
+  position: relative;
+  width: 234px;
+  height: 252px;
+  margin-top : 260px;
+  margin-left: 441px;
+  font-family: Poppins;
+  font-size: 60px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #ffffff;
+}
+
+.man {
+  position: fixed;
+  width: 346px;
+  height: 482px;
+  margin-top: 461px;
+  margin-left: 160px;
+  object-fit: contain;
+  background-image: url("./../img/man.png");
+}
+.Oval {
+  position: fixed;
+  width: 64px;
+  height: 64px;
+  margin-top: 765px;
+  margin-left: 600px;
+  margin-right : 697px;
+  background-color: #ffc300;
+}
+
+.words1 {
+  width: 1060px;
+  height: 33px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 63px;
+  margin-bottom: auto;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333333;
+}
+
+.header{
+  margin-top : 50px;
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333333;
+}
+
+.content{
+  width: 1200px;
+  height: 224px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.78;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333333;
+}
+
+.MarginSideAuto{
+  margin-top: 15px;
+  width : 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.work_based {
+  width: 480px;
+  height: 240px;
+  margin: 0 0 27px;
+  border-radius: 40px;
+  background-color: #f1f1f1;
+}
+.TextCenter{
+  text-align: center;
+  justify-content: center;
+  align-self: center;
+}
+
+.Width25{
+  width: 25%;
+}
+
+.mailbutton{
+  width: 403px;
+  height: 64px;
+  padding: 20px 117px 19px 118px;
+  border-radius: 16px;
+  box-shadow: 0 0 16px -4px #ffc300;
+  background-color: #ffc300;
+}
+
+.footer_based {
+  align-items : center;
+  justify-content: center;
+  text-align: center;
+  width: 1440px;
+  height: 160px;
+  padding: 40px 325px 40px 184px;
+  margin-top : 30px;
+  background-image: linear-gradient(to bottom, #ffffff 72%, #dbdbdb 115%);
+}
+
+.BasicPoppins{
+  font-family: Poppins;
+}
